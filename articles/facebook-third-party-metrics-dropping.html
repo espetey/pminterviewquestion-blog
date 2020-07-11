@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170088571-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-170088571-2');
+    </script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="PM Interview Question" />
+    <meta name="description"
+        content="Practice your Product Management Interviewing with PM Interview website and weekday newsletter." />
+    <meta name="keywords" content="PM Interview Question Product Manager Management Career" />
+    <meta name="robots" content="follow,index,all" />
+    <meta name="revisit-after" content="1 weeks" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="shortcut icon" type="image/png" href="../public/favicon.ico" />
+    <title>PM Interview Question</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div><img class="logo" src="../public/logo192.png" alt="logo"></div>
+            <div><a href="https://pminterviewquestion.com">PM Interview Question</a></div>
+            <div><a href="https://blog.pminterviewquestion.com">Blog</a></div>
+            <div><a href="http://eepurl.com/g7LcNn" target="_blank" rel="noopener noreferrer">Newsletter</a></div>
+        </nav>
+    </header>
+    <main role="main">
+        <section class="article">
+            <a href="../index.html">&larr; Back</a>
+            <h1>
+                You are the PM of Facebook 3rd Party
+                Login, and you see your numbers are declining 2% each week. What do you do?
+            </h1>
+            <h2>Friday, July 10, 2020</h2>
+            <p>I'm following the trend of doing a question that comes off as
+                company-specific at first but should be a little more generalizable after a little brainstorming. In
+                this case, while it would help to know the ins and outs of Facebook's specific product, I would start
+                from first principles around software development: new code, bugs, and network performance. Knowing how
+                to begin tracking those issues down doesn't require a lot of Facebook-specific knowledge and can help to
+                check off a lot of boxes. The scenario that a new competitor has begun stealing our customers is always
+                a possibility but will take a little more external research, while code/bugs/network should be
+                discoverable with a few calls to the devops, engineering, and QA teams.
+            <p>
+                If usage numbers were declining 2% each week, I would first consider what the cause is. I would start
+                with three possibilities:</p>
+            <ol>
+                <li>Our service level has degraded to the point where users are dropping off
+                <li>Our product has a bug in the workflow that is preventing successful logins</li>
+                <li>A competitor has entered the space</li>
+            </ol>
+            <p>I would assess whether there is a service or network issue first, as this would generally be a data
+                gathering mission and would be a quick way to rule out anything that could potentially be fixed with a
+                call to the devops team. To do so, I would gather recent network performance metrics, such as average
+                network response times and failed requests, and compare them with the same metrics from previous weeks
+                and months. I would be looking for any trends to suggest that performance had been decreasing leading up
+                to this point. I would also look for anomalies in the performance that might suggest performance issues
+                that may have been rising and falling prior to our discovery of a 2% decline in usage.</p>
+            <p>My second question would be whether there is a bug in the workflow that is preventing successful logins.
+                Investigating this would involve a few things. First I would look into the specific traffic that has
+                decreased: Have we lost only iOS users? Or only users in one region? This could help isolate whether a
+                bug was introduced into a specific code stream, such as a web- or mobile-focused API. It could also help
+                identify if the decrease was related to an A/B test that had been recently performed. I would also work
+                with an engineer to look at recent code commits to learn if anything was pushed in a similar timeframe
+                as the decline's beginning. Second, I would talk to the QA team to learn if they've noticed anything
+                that has changed with quality of the service.</p>
+            <p>After feeling relatively certain it is not related to any internal issues, I would begin to do some
+                market research to learn if there have been any new entrants into the 3rd-party login space or if a
+                known competitor has recently released a significant upgrade or feature set. I would also take to social
+                media and programming channels like Stack Overflow to learn if developers are discussing problems with
+                Facebook's offering or if a competitor is being discussed more than they had in the past.</p>
+            <a href="https://twitter.com/pm_interview/status/1281558480227368961?s=20" target="_blank">&#x9b; Respond on
+                Twitter</a>
+        </section>
+    </main>
+    <footer>
+        <div><img class="logo" src="../public/logo192.png" alt="logo"></div>
+        <div><a href="https://pminterviewquestion.com">PM Interview Question</a></div>
+        <div><a href="https://blog.pminterviewquestion.com">Blog</a></div>
+        <div><a href="http://eepurl.com/g7LcNn" target="_blank" rel="noopener noreferrer">Newsletter</a></div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+body {
+    /* background-color: #f1f0ef; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #0071c3;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0071c3;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0C4975;
+}
+
+header {
+    text-align: center;
+    padding: 0.25rem;
+    /* position: fixed; */
+    width: 100%;
+    /* background-color: #fff; */
+    /* border-bottom: solid 1px #b5b5b5; */
+    /* height: 2.8rem; */
+}
+
+.logo {
+    /* font-size: 1.2rem; */
+    border-radius: 50%;
+    width: 20px;
+    border: solid 2px #fa7aa4;
+}
+
+nav, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav>div, footer>div {
+    padding: 0 .5rem;
+}
+
+nav a {
+    /* border-bottom: solid 1px #FA7AA3; */
+}
+
+main {
+    margin: auto;
+    max-width: 640px;
+    padding: 2.4rem 1rem;
+}
+
+.teaser {
+    padding-bottom: 20px;
+}
+
+.article h1,
+.teaser h1 {
+    border-left: solid 10px #FA7AA3;
+    /*FAC848, FAAC61*/
+    padding-left: 10px;
+}
+
+.article h2,
+.teaser h2 {
+    font-size: 1.1rem;
+    color: #282c34;
+}
+
+.list .date {
+    background-color: #0171c3;
+    color: #fff;
+    border-radius: 6px;
+    padding: 1px 4px;
+    font-size: 0.8rem;
+}
