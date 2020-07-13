@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://blog.pminterviewquestion.com/</loc>
+  <lastmod>2020-07-11T03:44:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.pminterviewquestion.com/articles/facebook-third-party-metrics-dropping.html</loc>
+  <lastmod>2020-07-11T03:44:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.pminterviewquestion.com/articles/twitter-abusive-posting-value.html</loc>
+  <lastmod>2020-07-11T03:44:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.pminterviewquestion.com/articles/amazon-firestick-kpis.html</loc>
+  <lastmod>2020-07-11T03:44:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.pminterviewquestion.com/articles/amazon-whole-foods-customer-journey.html</loc>
+  <lastmod>2020-07-11T03:44:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.pminterviewquestion.com/articles/improve-a-water-bottle.html</loc>
+  <lastmod>2020-07-11T03:44:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.pminterviewquestion.com/articles/key-to-a-good-user-interface.html</loc>
+  <lastmod>2020-07-11T03:44:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.pminterviewquestion.com/index.html</loc>
+  <lastmod>2020-07-11T03:44:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
