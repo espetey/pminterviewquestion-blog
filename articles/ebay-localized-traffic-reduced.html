@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170088571-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-170088571-2');
+    </script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="PM Interview Question" />
+    <meta name="description"
+        content="Practice your Product Management Interviewing with PM Interview website and weekday newsletter." />
+    <meta name="keywords" content="PM Interview Question Product Manager Management Career" />
+    <meta name="robots" content="follow,index,all" />
+    <meta name="revisit-after" content="1 weeks" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="shortcut icon" type="image/png" href="../public/favicon.ico" />
+    <title>PM Interview Question</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div><a href="https://blog.pminterviewquestion.com"><img class="logo" src="../public/logo192.png" alt="back to blog"></a></div>
+            <div><a href="https://pminterviewquestion.com">PM Interview Question</a></div>
+            <div><a href="http://eepurl.com/g7LcNn" target="_blank" rel="noopener noreferrer">Newsletter</a></div>
+        </nav>
+    </header>
+    <main role="main">
+        <section class="article">
+            <a href="../index.html">&larr; Back to Blog</a>
+            <h1>
+                You have just localized eBay in Germany and now see that traffic has reduced — what could be the reasons?
+            </h1>
+            <h2>Monday, July 13, 2020</h2>
+            <p>
+                Today's question is about localization--the practice of creating interchangeable strings of text that can be inserted into a user interface for any given user region. For example, since eBay was originally built in the United States, there's a good chance all the text (buttons, descriptions, etc.) were written in English. As eBay moved into new global markets, these text strings would be replaced with variables that would map to a series of language-specific values. There are many programming and script-based technologies to help with localization however when deploying an entirely new language small implementation details may be forgotten or fat-fingered. Localization can be challenging because it deals with the cultural differences between the developer's country of origin and the customer's culture and language. In other words, pulling out a Spanish-English dictionary will likely miss a lot of linguistic nuance and may result in verbiage that is entirely incorrect. Balancing the potential for the traffic reduction mentioned in the question, therefore, should address both the technical aspects of localization as well as the language and cultural aspects.
+            </p>
+<h3>My response</h3>
+<p>
+If my team had just localized eBay in Germany and traffic is now reduced, I would first ask if traffic has been reduced across all eBay-Germany properties, such as web and mobile apps, or if the reduction in traffic is specific to one platform.
+</p><p>
+1. To investigate if there is a bug in the localization, I would first talk to the customer support team and QA team to check if they've had any issues reported around performance or in the text displayed. In my experience, localization technologies can create bugs in a few ways: compiling the bundle of string key/values can break, especially for entirely new bundles if a script somewhere in the build process for that specific environment was not updated; wild card and variable values could be pointing to an incorrect key/value set. In most of these cases, QA or support will hear about the issue quickly. If the traffic reduction is specific to a mobile platform I would look into whether the versions in production have been updated to support the new localization bundle. This is more likely an issue if the localization API endpoints are hard-coded into the app.
+</p><p>
+2. If the accuracy of the localization translation is off, native Germany speakers would have a negative experience and may reduce their usage of eBay. It may not be the case that this issue would rise to the level of a significant volume of support issues. Some users may not equate verbiage with traditional technical bugs and may not see "technical support" as the correct place to report an issue. I would guess that our team either employed German-speaking staff or consulted with German users during the user acceptance phase of development. Regardless of who was consulted for accuracy purposes, I would return to them and ask them to walk through the user flow again to ensure the language was accurate to our intended message. If some nuance or crucial workflow detail is being lost in translation, that may pass a translation accuracy test when viewed from a strictly API payload perspective. But, when the verbiage is inserted into the workflow it may either be confusing or inaccurate.
+            </p><p>
+The first issue is less likely the issue as it is more likely it would have been discovered during the QA process or, if a bug made it into production, traffic would not only be reduced but the support team would likely be hearing about the issue. Regardless, it is low-hanging fruit to check off the potential list of causes. The second potential cause listed is, I believe, the more likely culprit. Because verbiage on the website may not be seen as purely technical issue, users may be hesitant to report what they see. Instead, they may just assume the website is not well-tuned for German speakers and may bounce off. As mentioned earlier, I would get in touch with my German-speaking subject matter experts immediately.
+            </p>
+            <a href="https://twitter.com/pm_interview/status/1282639592005545990?s=20" target="_blank">&#x9b; Respond on
+                Twitter</a>
+        </section>
+    </main>
+    <footer>
+        <div><a href="https://blog.pminterviewquestion.com"><img class="logo" src="../public/logo192.png" alt="back to blog"></a></div>
+        <div><a href="https://pminterviewquestion.com">PM Interview Question</a></div>
+        <div><a href="http://eepurl.com/g7LcNn" target="_blank" rel="noopener noreferrer">Newsletter</a></div>
+    </footer>
+</body>
+
+</html>

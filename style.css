@@ -75,6 +75,12 @@ main {
     color: #282c34;
 }
 
+.article h3 {
+    color: #AD4467;
+    font-size: 0.95rem;
+    border-bottom: solid 1px #63a5d9;
+}
+
 .list .date {
     background-color: #0171c3;
     color: #fff;
